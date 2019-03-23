@@ -21,7 +21,7 @@ self.addEventListener('push', event => {
 
 			'Titulo qualquer',
 			{
-				body:event.data.text()
+				body:'Testando123'
 			}
 		)
 
