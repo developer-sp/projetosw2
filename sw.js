@@ -13,7 +13,7 @@ self.addEventListener('activate', event => {
 self.addEventListener('push', event => {
 
 	console.log("evento de push");
-	console.log(event.data.text());
+	
 
 	event.waitUntil(
 
